@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    items = ['T-Shirt', 'Jeans', 'Shoes']
+    items = ['T-Shirt', 'Jeans', 'Shoes','tea']
     return render_template('index.html', items=items)
 
 if __name__ == '__main__':
